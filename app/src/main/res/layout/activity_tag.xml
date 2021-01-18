@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/ChoseTag_Name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="请选择你的标签"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <CheckBox
+            android:id="@+id/MyTag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="90后"/>
+        <CheckBox
+            android:id="@+id/MyTag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="80后"/>
+        <CheckBox
+            android:id="@+id/MyTag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="00后"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <CheckBox
+            android:id="@+id/MyTag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="个性"/>
+        <CheckBox
+            android:id="@+id/MyTag5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="哲理"/>
+        <CheckBox
+            android:id="@+id/MyTag6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="唯美"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <CheckBox
+            android:id="@+id/MyTag7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="搞笑"/>
+        <CheckBox
+            android:id="@+id/MyTag8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="孤独"/>
+        <CheckBox
+            android:id="@+id/MyTag9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:theme="@style/MyCheckBox"
+            android:text="犀利"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SubmitTag"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="提交"
+        android:textColor="#F0F6F7"/>
+
+
+</LinearLayout>

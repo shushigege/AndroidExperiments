@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ex1"
+        android:enabled="true"
+        android:icon="@drawable/ex1"
+        android:title="实验一"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ex2"
+        android:enabled="true"
+        android:icon="@drawable/ex2"
+        android:title="实验二"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ex3"
+        android:enabled="true"
+        android:icon="@drawable/ex3"
+        android:title="实验三"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ex4"
+        android:enabled="true"
+        android:icon="@drawable/ex4"
+        android:title="实验四"
+
+        app:showAsAction="ifRoom" />
+</menu>

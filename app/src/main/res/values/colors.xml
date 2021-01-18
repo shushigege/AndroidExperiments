@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cccccc</color>
+    <color name="colorPrimaryDark">#cccccc</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="home_bottom_tab_blue">#999999</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="background">#fffff0</color>
+</resources>

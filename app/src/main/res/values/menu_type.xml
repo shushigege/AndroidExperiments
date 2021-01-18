@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_type">
+        <item>0-20</item>
+        <item>20-30</item>
+        <item>30-40</item>
+        <item>40-50</item>
+    </string-array>
+</resources>
